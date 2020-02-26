@@ -1,0 +1,9 @@
+applications:
+  - name: nubecreditos1234
+    memory: 128M
+    buildpack: sdk-for-nodejs
+    instances: 1
+    timeout: 180
+    command: npm start
+    memory: 256M
+    host: cualquiera1234
